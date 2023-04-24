@@ -59,3 +59,7 @@ a {
     padding: 2em;
     font-size: 5em;
 }
+
+.hero p {
+    background-color: rgba(204, 156, 232, 0.814);
+}
