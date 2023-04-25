@@ -9,11 +9,27 @@ body {
     background-image: url(background1.png);
 }
 
+
+.Logo {
+    width: 100%;
+}
+
+.Karla {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+div .Logo {
+    width: 150px;
+}
 .Main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #D8CFC2;
     align-items: center;
     height: 120px;
@@ -22,8 +38,8 @@ body {
 Nav {
     width: 70vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* flex-direction: row; */
+    justify-content: space-around;
 }
 
 a {
@@ -63,3 +79,30 @@ a {
 .hero p {
     background-color: rgba(204, 156, 232, 0.814);
 }
+
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    margin-left: 40px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Marvel', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.intro p {
+    font-family: 'Marvel', sans-serif;
+    font-family: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;  
+}
+
+.me p {
+    display: center;
+}
+
