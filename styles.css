@@ -96,13 +96,33 @@ h1 {
 
 .intro p {
     font-family: 'Marvel', sans-serif;
-    font-family: 30px;
+    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;  
 }
 
-.me p {
-    display: center;
+div.about {
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+div.karla.image.folklorico {
+    margin-left: 200px;
+
+    width: 500%;
+    justify-content: center;
+    /* background-size: 100vw 70vh; */
+    /* width: 90%;
+    height: 60vh; */
+}
+
+div.cart {
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
 }
 
