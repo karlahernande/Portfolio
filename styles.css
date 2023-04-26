@@ -55,29 +55,33 @@ a {
 }
 
 .hero {
-    /* background-image: url(ParkGuell.jpg); */
+    background-image: url(ParkGuell.jpg);
     /* background-image: url(parkguellrock.jpg); */
     /* background-image: url(purpleflowers.jpg); */
     /* width: 100%;
     height: 200vh; */
-    width: 100%;
+    /* width: 100%; */
     height: 70vh;
-    background-size: 100vw 70vh;
+    /* background-size: 100vw 70vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-bottom:100px; */
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:100px;
+    margin-top: 100px;
 }
 
 .content {
     /* width: fit-content; */
     padding: 2em;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .hero p {
-    background-color: rgba(204, 156, 232, 0.814);
+    background-color: rgba(96, 97, 75, 0.603);
 }
 
 
@@ -88,14 +92,20 @@ h2 {
 }
 h1 {
     font-size: 50px;
-    font-family: 'Marvel', sans-serif;
+    font-family: 'Marvel';
     display: flex;
     justify-content: center;
 
 }
 
+
+h2 {
+    font-family: 'Marvel';
+    display: flex;
+    justify-content: center;
+}
 .intro p {
-    font-family: 'Marvel', sans-serif;
+    font-family: 'Marvel';
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -103,7 +113,7 @@ h1 {
 }
 
 div.about {
-    font-family: 'Marvel', sans-serif;
+    font-family: 'Marvel';
     font-size: 20px;
     margin-left: 70px;
     margin-right: 60px;
@@ -120,9 +130,88 @@ div.karla.image.folklorico {
 }
 
 div.cart {
-    font-family: 'Marvel', sans-serif;
+    font-family: 'Marvel';
     font-size: 20px;
     margin-left: 70px;
     margin-right: 50px;
 }
 
+.Web {
+    font-family: 'Marvel';
+    font-size: 30px;
+}
+
+/* Resume */
+
+.Education h2 {
+    margin-left: -1700px; font-family: 'Marvel';
+}
+
+.first {
+    font-family: 'Marvel';
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+/* Portfolio */
+.delvehomes {
+    display: flex;
+}
+
+.SocialIssues {
+    display: flex;
+}
+
+.Line-Up {
+    display: flex;
+}
+
+.CashBank {
+    display: flex;
+}
+
+.essay {
+    font-family: 'Marvel', sans-serif;
+    font-size: 30px;
+}
+
+.poster {
+    font-family: 'Marvel',sans-serif;
+    font-size: 30px;
+}
+
+.Picture {
+    font-family: 'Marvel', sans-serif;
+    font-size: 30px;
+}
+
+/* footer */
+
+footer {
+ background-color: #D8CFC2;
+}
+
+.pad {
+    padding: 3.2vw;
+    font-family: 'Marvel', sans-serif;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.email {
+    font-weight: bold;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.ABE {
+    font-weight: bold;
+}
+
+/* .ABE {
+    display: flex;
+    justify-content: space-between;
+} */
