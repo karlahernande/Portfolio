@@ -121,7 +121,7 @@ div.about {
 
 div.karla.image.folklorico {
     margin-left: 200px;
-
+    background-size: cover;
     width: 500%;
     justify-content: center;
     /* background-size: 100vw 70vh; */
@@ -140,7 +140,15 @@ div.cart {
     font-family: 'Marvel';
     font-size: 30px;
 }
+/* About Me */
 
+.four  {
+    font-family: 'Marvel';
+    margin-left: 70px;
+    font-size: 20px;
+    margin-right: 50px;
+
+}
 /* Resume */
 
 .Education h2 {
