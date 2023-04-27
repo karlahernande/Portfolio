@@ -144,7 +144,8 @@ div.cart {
 /* Resume */
 
 .Education h2 {
-    margin-left: -1700px; font-family: 'Marvel';
+    margin-left: -1700px; 
+    font-family: 'Marvel';
 }
 
 .first {
@@ -153,7 +154,85 @@ div.cart {
     margin-left: 80px;
 }
 
+.second {
+    font-family: 'Marvel';
+    font-size: 20px;
+    margin-left: 80px;
+}
 
+.Languages h2 {
+    margin-left: -1700px;
+    font-family: 'Marvel';
+}
+
+.one {
+    font-family: 'Marvel';
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.CommunityService h2 {
+    margin-left: -1700px;
+    font-family: 'Marvel';
+}
+
+.Community {
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Marvel';
+}
+
+.Certificates h2{
+    margin-left: -1700px;
+    font-family: 'Marvel';
+}
+
+.Award {
+    font-family: 'Marvel';
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+
+.Extracurricular h2 {
+    margin-left: -1700px;
+    font-family: 'Marvel';
+}
+
+.Activites {
+    font-family: 'Marvel';
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.Skills h2 {
+    font-family: 'Marvel';
+    margin-left: -1700px;
+}
+
+.skills1 {
+    font-family: 'Marvel';
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.Hobbies h2 {
+    font-family: 'Marvel';
+    margin-left: -1700px;
+}
+
+.hobbies1 {
+    font-family: 'Marvel';
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.ending {
+    font-family: 'Marvel';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* Portfolio */
 .delvehomes {
