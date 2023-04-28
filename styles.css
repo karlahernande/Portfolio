@@ -54,6 +54,8 @@ a {
     /* font-family: 'Space Grotesk', sans-serif;  <-- font from jessica hernandez (possible may use) */
 }
 
+/* Home */
+
 .hero {
     background-image: url(ParkGuell.jpg);
     /* background-image: url(parkguellrock.jpg); */
@@ -104,6 +106,12 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+
+.Welcome h2 {
+    margin-left: -1700px;
+}
+
 .intro p {
     font-family: 'Marvel';
     font-size: 20px;
@@ -180,7 +188,7 @@ div.cart {
 }
 
 .CommunityService h2 {
-    margin-left: -1700px;
+    margin-left: -1500px;
     font-family: 'Marvel';
 }
 
@@ -191,7 +199,7 @@ div.cart {
 }
 
 .Certificates h2{
-    margin-left: -1700px;
+    margin-left: -1500px;
     font-family: 'Marvel';
 }
 
@@ -203,7 +211,7 @@ div.cart {
 
 
 .Extracurricular h2 {
-    margin-left: -1700px;
+    margin-left: -1400px;
     font-family: 'Marvel';
 }
 
@@ -215,7 +223,7 @@ div.cart {
 
 .Skills h2 {
     font-family: 'Marvel';
-    margin-left: -1700px;
+    margin-left: -1800px;
 }
 
 .skills1 {
@@ -226,7 +234,7 @@ div.cart {
 
 .Hobbies h2 {
     font-family: 'Marvel';
-    margin-left: -1700px;
+    margin-left: -1750px;
 }
 
 .hobbies1 {
