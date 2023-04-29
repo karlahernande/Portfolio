@@ -148,6 +148,44 @@ div.cart {
     font-family: 'Marvel';
     font-size: 30px;
 }
+
+
+.dropbtn {
+    color: black;
+    background-color: #D8CFC2;
+    font-size: 20px;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #D8CFC2;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+
+.show {
+    display: block;
+}
 /* About Me */
 
 .four  {
