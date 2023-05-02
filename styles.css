@@ -400,6 +400,19 @@ div.cart {
     font-size: 20px;
 }
 
+.img-essay {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+
+}
+
+.img-poster {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+
 /* Personal */
 
 .folk1 {
