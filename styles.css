@@ -115,17 +115,20 @@ h2 {
 .intro p {
     font-family: 'Marvel';
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-right: 50px;
     display: flex;  
 }
 
-div.about {
+/* About me */
+
+
+/* div.about {
     font-family: 'Marvel';
     font-size: 20px;
     margin-left: 70px;
     margin-right: 60px;
-}
+} */
 
 div.karla.image.folklorico {
     margin-left: 200px;
@@ -139,9 +142,11 @@ div.karla.image.folklorico {
 
 div.cart {
     font-family: 'Marvel';
-    font-size: 20px;
-    margin-left: 70px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* max-width: 60ch; */
+    text-indent: 1em;
+    font-size: 1.5em;
 }
 
 .Web {
@@ -188,12 +193,25 @@ div.cart {
 }
 /* About Me */
 
-.four  {
-    font-family: 'Marvel';
-    margin-left: 70px;
-    font-size: 20px;
-    margin-right: 50px;
 
+.about-text {
+    font-family: 'Marvel'sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-indent: 1em;
+    font-size: 1.5em;
+    display: flex;
+    
+}
+
+
+.four  {
+    font-family: 'Marvel' sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.5em;
+    text-indent: 1em;
+    display: flex;
 }
 
 .karla-image {
@@ -429,14 +447,19 @@ div.cart {
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Marvel' sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
+    display: flex;
+    text-indent: 1em;
+
 }
 
 .photo1 {
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Marvel' sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
+    text-indent: 1em;
+    display: flex;
 }
 
 .folk-image {
@@ -445,6 +468,81 @@ div.cart {
     justify-content: center;
 }
 
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.myphotos {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: 0.6s ease;
+    border-radius: 0 3px  3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover, .next:hover {
+    background-color: black;
+}
+
+.text {
+    font-size: 1.5em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    font-size: 1.5em;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    background-color: #D8CFC2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+
+.active, .dot:hover {
+    background-color: #785D4C;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to { opacity: 1}
+}
+/* 
 .photo-img {
     display: flex;
     height: 70vh;
@@ -454,7 +552,7 @@ div.cart {
 .photo-img2 {
     display: flex;
     height: 70vh;
-}
+} */
 
 
 /* Portfolio */

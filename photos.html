@@ -52,7 +52,7 @@
     </div>
     <br>
     <div class="photo">
-        <h1>Photos</h1>
+        <h1>Photography</h1>
     </div>
     <div class="photo1">
         <br>
@@ -68,11 +68,49 @@
             surroundings that are beautiful to capture. 
         </p>
     </div>
-    <div class="photo-img">
+
+    <div class="slideshow">
+
+        <div class="myphotos fade">
+            <div class="number text">1 / 4</div>
+            <img src="sunset.jpg" style="width:100%">
+            <div class="text">Sunset</div>
+        </div>
+
+        <div class="myphotos fade">
+            <div class="number text">2 / 4</div>
+            <img src="parkguell2.jpg" style="width:100%">
+            <div class="text">Park Guell</div>
+        </div>
+
+        <div class="myphotos fade">
+            <div class="number text">3 / 4</div>
+            <img src="flowers.jpg" style="width:100%">
+            <div class="text">Flowers</div>
+        </div>
+
+        <div class="myphotos fade">
+            <div class="number text">3 / 4</div>
+            <img src="effieltower.jpg" style="width:100%">
+            <div class="text">Effiel Tower</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <!-- <div class="photo-img">
         <img src="sunset.jpg">
     </div>
     <div class="photo-img2">
         <img src="parkguell2.jpg">
-    </div>
+    </div> -->
 </body>
 </html>
