@@ -505,7 +505,7 @@ div.cart {
 .text {
     font-size: 1.5em;
     padding: 8px 12px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 8px;
     width: 100%;
     text-align: center;
