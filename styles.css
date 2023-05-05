@@ -313,6 +313,10 @@ div.cart {
     justify-content: space-evenly;
 }
 
+.ending a {
+    background-image: linear-gradient(45deg,purple,blue,aqua);
+}
+
 /* Portfolio */
 /* .delvehomes {
     display: flex;
