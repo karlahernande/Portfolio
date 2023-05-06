@@ -627,6 +627,17 @@ footer {
     font-weight: bold;
 }
 
+.linkedin {
+    width: 5vw;
+
+}
+
+.ABE-2 {
+    height: 5vw;
+    justify-content: space-between;
+
+}
+
 /* .ABE {
     display: flex;
     justify-content: space-between;
