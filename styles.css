@@ -6,7 +6,7 @@
 
 body {
     background-color: #785D4C;
-    background-image: url(background1.png);
+    background-image: url(/images/background1.png);
 }
 
 
@@ -57,7 +57,7 @@ a {
 /* Home */
 
 .hero {
-    background-image: url(ParkGuell.jpg);
+    background-image: url(/images/ParkGuell.jpg);
     /* background-image: url(parkguellrock.jpg); */
     /* background-image: url(purpleflowers.jpg); */
     /* width: 100%;
@@ -114,11 +114,12 @@ h2 {
 
 .intro p {
     font-family: 'Marvel';
-    font-size: 20px;
+    font-size: 1.5em;
     margin-left: 70px;
     margin-right: 50px;
     display: flex;  
 }
+
 
 /* About me */
 
@@ -367,7 +368,7 @@ div.cart {
 }
 
 .main-pic {
-    background: no-repeat center/cover url(DelveHomes.png);
+    background: no-repeat center/cover url(/images/DelveHomes.png);
 }
 /* .flex {
     width: 100%;
@@ -445,33 +446,37 @@ div.cart {
 /* English Work */
 
 .career.of.choice.text {
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
     font-family: 'Marvel' sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-left: 150px;
+   
+
 }
 
 .text.v {
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Marvel' sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
-.img-essay {
-    display: flex;
-    height: 70vh;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-top: 40px;
 
+.img-essay {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
 }
 
 .img-poster {
     display: flex;
     height: 70vh;
     justify-content: center;
+    margin-right: 80px;
 }
 
 /* Personal */
