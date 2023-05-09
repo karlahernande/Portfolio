@@ -25,6 +25,8 @@ body {
 div .Logo {
     width: 150px;
 }
+
+
 .Main {
     width: 100%;
     display: flex;
@@ -338,16 +340,30 @@ div.cart {
 .essay {
     font-family: 'Marvel', sans-serif;
     font-size: 30px;
+    background-image: url(/images/CareerofChoice.png);
 }
 
 .poster {
     font-family: 'Marvel',sans-serif;
     font-size: 30px;
+    background-image: url(/images/TheVeldtPoster.png);
 }
 
 .Picture {
+    background-image: url(/images/birds.jpeg);
+    display: flex;
+    background-size: cover;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right:200px ;
+    min-zoom: 20px;
+}
+
+.Picture p {
     font-family: 'Marvel', sans-serif;
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 
@@ -366,9 +382,31 @@ div.cart {
     height: 400px; */
     color: black;
 }
-
-.main-pic {
+.port {
+    display: flex;
+    min-height: 20vh;
+}
+/* .main-first {
     background: no-repeat center/cover url(/images/DelveHomes.png);
+} */
+
+.main-second {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: black;
+    /* background: no-repeat center/cover url(/images/powerconservation.png); */
+}
+
+.main-third {
+     /* background: no-repeat center/cover url(/images/Line-up.png); */
+     margin-left: 20vw;
+     flex-direction: column;
+}
+
+.main-fourth {
+    /* background-image: no-repeat center/cover url(/images/Cash&Bank.png); */
+
 }
 /* .flex {
     width: 100%;

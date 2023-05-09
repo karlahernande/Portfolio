@@ -1,3 +1,6 @@
+
+// Dropdown wannabe
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -16,29 +19,48 @@ window.onclick = function(event) {
 }
 
 
-let slideIndex = 1;
-showSlides(slideIndex)
+// Wannabe coursal
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+// let slideIndex = 1;
+// showSlides(slideIndex)
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
 
-function showSlides(n) {
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//     let i;
+//     let slides = document.getElementsByClassName("myphotos");
+//     let dots = document.getElementsByClassName("dot");
+//     if (n > slides.length) {slideIndex = 1}
+//     if (n < 1) {slideIndex = slides.length}
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     for (i = 0; i < dots.length; i++) {
+//         dots[i].className = dots[i].className.replace(" active", "");
+//     }
+//     slides[slideIndex-1].style.display = "block";
+//     dots[slideIndex-1].className += " active";
+// }
+
+// automatic slideshow
+
+let slideIndex = 0
+showSlides();
+
+function showSlides() {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    let slides = document.getElementsByClassName("myphotos");
     for (i = 0; i < slides.length; i++) {
-        slides[i].getElementsByClassName.display = "none";
+        slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
+    slideIndex++;
+    if (slideIndex >slides.length) {slideIndex =1 }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); 
 }
