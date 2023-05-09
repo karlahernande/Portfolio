@@ -317,7 +317,7 @@ div.cart {
 }
 
 .ending a {
-    background-image: linear-gradient(45deg,purple,blue,aqua);
+    background-image: linear-gradient(45deg,rgb(201, 189, 161),rgb(123, 101, 85));
 }
 
 /* Portfolio */
@@ -423,7 +423,7 @@ div.cart {
 .delvehomes.text p {
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Marvel' sans-serif;
 }
 
@@ -463,14 +463,14 @@ div.cart {
 .social.text p {
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Marvel' sans-serif;
 }
 
 .line.text p {
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Marvel' sans-serif;
 }
 
