@@ -362,9 +362,9 @@ div.cart {
 }
 
 .Picture {
-    /* background-image: url(/images/birds.jpeg); */
+    /* background: no repeat center/cover url(/images/birds.jpeg); */
     display: flex;
-    background-size: cover;
+    /* background-size: cover; */
     height: 70vh;
     justify-content: center;
     /* align-items: center; */
@@ -376,26 +376,49 @@ div.cart {
 .Picture p {
     font-family: 'Marvel', sans-serif;
     font-size: 1.5em;
+    font-weight: bold;
+    color: #785D4C;
 }
 
 
-/* .Web {
-    flex-direction: column;
+.photo {
+    display: flex;
+    flex-direction:column;
+    margin-left: 35em;
+    margin-right: 35em;
+
+}
+
+
+.Picture {
+    background: no-repeat center/cover url(/images/camera.jpg);
+}
+
+
+.Web {
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
     display: flex;
-} */
+    text-align: center;
+    height: 400px;
+    width: ;
+}
 
-.main {
+/* .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; */
     /* text-align: center; */
     /* width: 24.81%;
     height: 400px; */
-    color: black;
+    /* color: black;
     
-}
+} */
 
+
+.Web h2 {
+    margin-left: 17em;
+}
 .main p {
     font-size: 2.5em;
 }
@@ -657,11 +680,7 @@ div.cart {
 } */
 
 
-/* Portfolio */
 
-.Web {
-
-}
 /* Contact */
 
 
