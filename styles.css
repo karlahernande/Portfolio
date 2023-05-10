@@ -515,14 +515,14 @@ div.cart {
     font-family: 'Marvel' sans-serif;
     font-size: 1.5em;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 10px;
    
 
 }
 
 .text.v {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    /* margin-right: 100px; */
     font-family: 'Marvel' sans-serif;
     font-size: 1.5em;
     margin-bottom: 20px;
