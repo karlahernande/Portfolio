@@ -337,30 +337,43 @@ div.cart {
 .CashBank {
     display: flex;
 } */
-
+.English {
+    flex-direction: row;
+}
 
 
 .essay {
     /* font-family: 'Marvel', sans-serif;
     font-size: 30px; */
-    /* background: no repeat center/cover url(/images/CareerofChoice.png); */
+    /* background: no-repeat center/cover url(/images/CareerofChoice.png); */
+    display: flex;
+    height: 70vh;
+    justify-content: left;
+}
+
+.essay p {
+    font-family: 'Marvel', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #785D4C;
 }
 
 .poster {
     /* font-family: 'Marvel',sans-serif;
     font-size: 30px; */
-    /* background-image: url(/images/TheVeldtPoster.png); */
-}
-
-.essay p {
-    font-size: 1.5em;
-    font-family: 'Marvel', sans-serif;
+    /* background:no-repeat center/cover url(/images/TheVeldtPoster.png); */
+    display: flex;
+    height: 70vh;
+    justify-content: center;
 }
 
 .poster p {
-    font-size: 1.5em;
     font-family: 'Marvel', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #785D4C;
 }
+
 
 .Picture {
     /* background: no repeat center/cover url(/images/birds.jpeg); */
@@ -403,7 +416,7 @@ div.cart {
     display: flex;
     text-align: center;
     height: 400px;
-    width: ;
+
 }
 
 /* .main {

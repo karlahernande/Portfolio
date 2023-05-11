@@ -64,3 +64,16 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 5000); 
 }
+
+function sendEmail() {
+    sendEmail.send({
+        Host : "smtp.mailslurp.com",
+        Username : "<mailslurp username",
+        Password : "<mailslurp password>",
+        To : 'recipient@example.com',
+        Form : "sender@example.com",
+        Subject : "Test email",
+        Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em></html>"
+    }).then(message --> alert(message)
+    );
+}
