@@ -355,42 +355,45 @@ background-color: rgba(0, 0, 0, 0.4);
     justify-content: space-around;
     flex-direction: row;
 }
-/* Pictures of my projects */
+/* Pictures of my projects -- Web Work */
 
 .h3 {
     flex-direction: column;
 }
+
+
 .delve {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    width: 30vw;
+    margin-right: 2vw;
+    margin-left: 5vw;
+    width: 25vw;
     object-position: center;
     object-fit: cover;
 }
 
 .issue {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    width: 30vw;
+    margin-right: 2vw;
+    margin-left: 5vw;
+    width: 25vw;
     object-fit: cover;
     object-position: center;
 }
 
 .game {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    width: 30vw;
+    margin-right: 2vw;
+    margin-left: 10.8vw;
+    width: 25vw;
     object-fit: cover;
     object-position: center;
 }
 
 .calc {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    width: 30vw;
+    margin-right: 2vw;
+    margin-left: 15vw;
+    width: 25vw;
     object-fit: cover;
     object-position: center;
 }
+
 
 .half {
     display: flex;
@@ -398,6 +401,7 @@ background-color: rgba(0, 0, 0, 0.4);
     justify-content: space-around;
     align-items: center;
 }
+
 
 .second-part {
     display: flex;
@@ -407,45 +411,43 @@ background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     
 }
-.English {
-    /* flex-direction: row; */
+
+/* English Work for portfolio */
+
+.second-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
+
+.second-half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* pictures for writing (english) */
 
 .essay {
-    /* font-family: 'Marvel', sans-serif;
-    font-size: 30px; */
-    /* background: no-repeat center/cover url(/images/CareerofChoice.png); */
-    
-    /* display: flex;
-    height: 70vh;
-    justify-content: left; */
+    margin-right: 1vw;
+    margin-left: 19w;
+    width: 17vw;
+    object-fit: cover;
+    object-position: center;
 }
 
-.essay p {
-    /* font-family: 'Marvel', sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #785D4C; */
-}
 
 .poster {
-    /* font-family: 'Marvel',sans-serif;
-    font-size: 30px; */
-    /* background:no-repeat center/cover url(/images/TheVeldtPoster.png); */
-   
-   
-    /* display: flex;
-    height: 70vh;
-    justify-content: center; */
+    margin-left: 1vw;
+    margin-right: 17vw;
+    width: 15vw;
+    object-fit: cover;
+    object-position: center;
 }
 
-.poster p {
-    /* font-family: 'Marvel', sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #785D4C; */
-}
+
 
 
 .Picture {
