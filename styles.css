@@ -157,40 +157,51 @@ div.cart {
     font-size: 30px;
     justify-content: center;
 }
+ /* dropdown */
 
+ .c {
+background-color: rgba(0, 0, 0, 0.4); 
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
 
-.dropbtn {
-    color: black;
+.drop-cont {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    min-width: 140px;
     background-color: #D8CFC2;
+}
+
+.drop-cont a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 14px;
+}
+
+.dropdown:hover .drop-cont {
+    display: block;
+}
+
+.nav-button {
     font-size: 20px;
 }
 
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-.dropbtn:hover, .dropbtn:focus {
+
+.top :hover,
+.drop :hover {
+    transition: .3s;
     background-color: #D8CFC2;
+
 }
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-
-.dropdown-content {
-    display: block;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-
-.dropdown-content a {
-    text-decoration: none;
-    display: block;
-}
-
 
 .show {
     display: block;
@@ -337,8 +348,67 @@ div.cart {
 .CashBank {
     display: flex;
 } */
-.English {
+
+
+.full-row {
+    display: flex;
+    justify-content: space-around;
     flex-direction: row;
+}
+/* Pictures of my projects */
+
+.h3 {
+    flex-direction: column;
+}
+.delve {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 30vw;
+    object-position: center;
+    object-fit: cover;
+}
+
+.issue {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.game {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.calc {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.English {
+    /* flex-direction: row; */
 }
 
 
@@ -346,32 +416,35 @@ div.cart {
     /* font-family: 'Marvel', sans-serif;
     font-size: 30px; */
     /* background: no-repeat center/cover url(/images/CareerofChoice.png); */
-    display: flex;
+    
+    /* display: flex;
     height: 70vh;
-    justify-content: left;
+    justify-content: left; */
 }
 
 .essay p {
-    font-family: 'Marvel', sans-serif;
+    /* font-family: 'Marvel', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-    color: #785D4C;
+    color: #785D4C; */
 }
 
 .poster {
     /* font-family: 'Marvel',sans-serif;
     font-size: 30px; */
     /* background:no-repeat center/cover url(/images/TheVeldtPoster.png); */
-    display: flex;
+   
+   
+    /* display: flex;
     height: 70vh;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .poster p {
-    font-family: 'Marvel', sans-serif;
+    /* font-family: 'Marvel', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-    color: #785D4C;
+    color: #785D4C; */
 }
 
 
