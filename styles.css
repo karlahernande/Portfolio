@@ -162,12 +162,37 @@ div.cart {
  .c {
 background-color: rgba(0, 0, 0, 0.4); 
 }
+
+
 .dropdown {
     display: inline-block;
     position: relative;
 }
 
-.drop-cont {
+.dropdownC {
+    display: none;
+    position: absolute;
+}
+
+
+.na li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: .5em;
+    transition: color 0.5s ease;
+}
+
+
+.nav li a:hover {
+    color: #D8CFC2;
+    background-color: #785D4C;
+}
+
+
+nav a.active {
+    color: #785D4C;
+}
+/* .drop-cont {
     position: absolute;
     display: none;
     z-index: 1;
@@ -201,7 +226,7 @@ background-color: rgba(0, 0, 0, 0.4);
     transition: .3s;
     background-color: #D8CFC2;
 
-}
+} */
 
 .show {
     display: block;
