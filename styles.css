@@ -43,6 +43,7 @@ Nav {
     display: flex;
     /* flex-direction: row; */
     justify-content: space-around;
+    font-family: 'Marvel', sans-serif;
 }
 
 Nav a:hover {
