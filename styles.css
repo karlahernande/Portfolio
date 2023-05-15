@@ -144,14 +144,16 @@ div.karla.image.folklorico {
     height: 60vh; */
 }
 
-div.cart {
+.div.cart {
     font-family: 'Marvel';
-    margin-left: ;
-    margin-right: 30px;
+    margin: 22vw;
+    margin-right: 22vw;
     /* max-width: 60ch; */
     text-indent: 1em;
     font-size: 1.5em;
 }
+
+
 
 .Web {
     font-family: 'Marvel';
@@ -536,7 +538,7 @@ nav a.active {
     height: 70vh;
 
      justify-content: center;
-
+    
     /* align-items: center; */
     /* margin-left: 200px;
     margin-right:200px ; */
@@ -898,7 +900,7 @@ footer {
    
 }
 
-.email {
+.emailp {
     font-weight: bold;
 }
 
