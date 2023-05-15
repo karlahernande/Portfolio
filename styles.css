@@ -45,6 +45,10 @@ Nav {
     justify-content: space-around;
 }
 
+Nav a:hover {
+    color: white;
+}
+
 a {
     justify-content: center;
     display: flex;
@@ -52,6 +56,7 @@ a {
     color: black;
     font-size: 20px;
     text-decoration: none;
+    /* height: 120px; */
     /* font-weight: bold; */
     /* border: solid 10px bold; */
     /* font-family: 'Space Grotesk', sans-serif;  <-- font from jessica hernandez (possible may use) */
@@ -164,13 +169,19 @@ div.karla.image.folklorico {
 
 
 .dropdown {
-    width: 2vw;
+    width: 15%;
     height: 3vh;
     font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dropdowncontent {
     display: none;
+    background-color: #785D4C;
+    width: 100%;
+
     
 }
 
@@ -178,12 +189,12 @@ div.karla.image.folklorico {
     display: block;
 }
 
-.dropbtn {
+/* .dropbtn {
     width: 2vw;
     height: 3vh;
     background-color: #D8CFC2;
     font-size: 20px;
-}
+} */
  /* .c {
 background-color: rgba(0, 0, 0, 0.4); 
 }
