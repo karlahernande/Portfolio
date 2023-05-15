@@ -170,7 +170,7 @@ div.karla.image.folklorico {
 
 
 .dropdown {
-    width: 15%;
+    width: 9%;
     height: 3vh;
     font-size: 1.5em;
     display: flex;
@@ -901,8 +901,9 @@ input[type=text], select, textarea {
 /* footer */
 
 footer {
- background-color: #D8CFC2;
+    background-color: #D8CFC2;
 }
+
 
 .pad {
     padding: 3.2vw;
@@ -922,6 +923,7 @@ footer {
 
 .ABE {
     font-weight: bold;
+
 }
 
 .linkedin {
