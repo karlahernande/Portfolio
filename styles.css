@@ -410,7 +410,9 @@ nav a.active {
 .CashBank {
     display: flex;
 } */
-
+h3:hover {
+    color: white;
+}
 
 .full-row {
     display: flex;
@@ -478,7 +480,7 @@ nav a.active {
 
 .second-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
@@ -486,7 +488,7 @@ nav a.active {
 .second-half {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -503,7 +505,7 @@ nav a.active {
 
 .poster {
     margin-left: 1vw;
-    margin-right: 17vw;
+    margin-right: 3vw;
     width: 15vw;
     object-fit: cover;
     object-position: center;
@@ -565,6 +567,7 @@ nav a.active {
 }
 
 
+
 .photo {
     display: flex;
     flex-direction:column;
@@ -572,6 +575,20 @@ nav a.active {
     margin-right: 35em;
 
 } */
+
+.Picture p {
+    font-family: 'Marvel',sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 35em;
+    margin-right: 35em;
+}
 
 
 /* .Picture {
@@ -600,8 +617,9 @@ nav a.active {
 } */
 
 
-.Web h2 {
+.WebWork h2 {
     margin-left: 17em;
+    justify-content: center;
 }
 .main p {
     font-size: 2.5em;
