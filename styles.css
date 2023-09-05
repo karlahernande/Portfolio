@@ -50,6 +50,7 @@ Nav a:hover {
     color: white;
 }
 
+
 a {
     justify-content: center;
     display: flex;
@@ -938,7 +939,6 @@ footer {
     font-family: 'Marvel', sans-serif;
     display: flex;
     justify-content: space-between;
-   
 }
 
 .emailp {
